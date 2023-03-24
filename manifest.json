@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Life is an Illusion",
+  "description": "A Chrome extension that reminds the user that nothing is real and that life is an illusion.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["activeTab", "contextMenus"]
+}
